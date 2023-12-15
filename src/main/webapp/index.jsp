@@ -1,22 +1,32 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome DevOps</title>
+    <title>Happy Friday Animation</title>
     <style>
-        body {
-            background: linear-gradient(to right, #ff8a00, #da1b60);
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 100px;
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
         }
-        h1 {
-            font-size: 3em;
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        .happy-friday {
+            font-size: 40px;
+            text-align: center;
+            animation: pulse 2s infinite;
         }
     </style>
 </head>
 <body>
-    <h1>Dev</h1>
+    <div class="happy-friday">Happy Friday!</div>
 </body>
 </html>
