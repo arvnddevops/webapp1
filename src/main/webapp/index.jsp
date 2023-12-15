@@ -27,6 +27,6 @@
     </style>
 </head>
 <body>
-    <div class="happy-friday">Happy Friday!</div>
+    <div class=""Practice today, excel tomorrow; consistency is the key on Fridays too!"">Happy Friday!</div>
 </body>
 </html>
