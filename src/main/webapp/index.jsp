@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Happy Friday Animation</title>
+    <title>MadDay</title>
     <style>
         @keyframes pulse {
             0% { transform: scale(1); }
@@ -27,6 +27,6 @@
     </style>
 </head>
 <body>
-    <div class="Hey">Happy Friday!</div>
+    <div class="happy-friday">Hey!</div>
 </body>
 </html>
