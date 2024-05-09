@@ -11,11 +11,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>NexusRepo</id>
-            <url>http://34.16.198.138:8081/repository/testsnap//</url>
+            <url>http://34.16.198.138:8081/repository/testsnap/</url>
         </snapshotRepository>
         <repository>
             <id>NexusRepo</id>
-            <url>http://34.16.198.138:8081/repository/test//</url>
+            <url>http://34.16.198.138:8081/repository/test/</url>
         </repository>
     </distributionManagement>
 
